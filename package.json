@@ -5,8 +5,9 @@
   "scripts": {
     "build": "npm run clean && npm test && tsc",
     "clean": "del-cli lib",
-    "docker:build": "npm run build && docker build -t tgillus/docker-playground .",
-    "docker:run": "docker run -p 3000:3000 tgillus/docker-playground",
+    "docker:create": "docker-compose create",
+    "docker:start": "docker-compose start",
+    "docker:stop": "docker-compose stop",
     "format": "prettier . --write",
     "lint": "eslint . --ext .js,.ts",
     "lint:fix": "eslint . --ext .js,.ts --fix",

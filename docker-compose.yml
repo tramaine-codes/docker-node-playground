@@ -1,0 +1,14 @@
+version: '3.9'
+name: docker-playground
+services:
+  web:
+    restart: on-failure
+    build: .
+    expose:
+      - '3000'
+  nginx:
+    build: ./nginx
+    ports:
+      - '80:80'
+    depends_on:
+      - web

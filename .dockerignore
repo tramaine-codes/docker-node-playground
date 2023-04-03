@@ -4,6 +4,7 @@ commitlint.config.cjs
 .git*
 .husky
 lint-staged.config.js
+nginx
 node_modules
 npm-debug.log
 prettier.config.cjs
