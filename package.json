@@ -5,7 +5,7 @@
   "scripts": {
     "build": "npm run clean && npm test && tsc",
     "clean": "del-cli lib",
-    "docker:create": "docker-compose create",
+    "docker:create": "npm run build && docker-compose create",
     "docker:start": "docker-compose start",
     "docker:stop": "docker-compose stop",
     "format": "prettier . --write",
