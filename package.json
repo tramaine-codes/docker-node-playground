@@ -21,21 +21,23 @@
   "devDependencies": {
     "@commitlint/cli": "19.5.0",
     "@commitlint/config-conventional": "19.5.0",
+    "@eslint/js": "9.14.0",
     "@triviumsoftware/chemist": "2.0.5",
-    "@types/node": "20.16.10",
-    "@typescript-eslint/eslint-plugin": "8.8.0",
-    "@typescript-eslint/parser": "8.8.0",
-    "@vitest/coverage-v8": "2.1.2",
-    "del-cli": "5.1.0",
-    "eslint": "8.57.1",
+    "@types/eslint__js": "8.42.3",
+    "@types/node": "20.17.6",
+    "@vitest/coverage-v8": "2.1.4",
+    "del-cli": "6.0.0",
+    "eslint": "9.14.0",
+    "globals": "15.11.0",
     "husky": "9.1.6",
     "lint-staged": "15.2.10",
     "prettier": "3.3.3",
-    "tsx": "4.19.1",
-    "typescript": "5.6.2",
-    "vitest": "2.1.2"
+    "tsx": "4.19.2",
+    "typescript": "5.6.3",
+    "typescript-eslint": "8.12.2",
+    "vitest": "2.1.4"
   },
   "dependencies": {
-    "fastify": "5.0.0"
+    "fastify": "5.1.0"
   }
 }
