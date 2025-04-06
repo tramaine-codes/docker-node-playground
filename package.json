@@ -19,25 +19,24 @@
   "author": "Tramaine L. Gillus",
   "license": "ISC",
   "devDependencies": {
-    "@commitlint/cli": "19.6.1",
-    "@commitlint/config-conventional": "19.6.0",
-    "@eslint/js": "9.17.0",
+    "@commitlint/cli": "19.8.0",
+    "@commitlint/config-conventional": "19.8.0",
+    "@eslint/js": "9.24.0",
     "@triviumsoftware/chemist": "2.0.5",
-    "@types/eslint__js": "8.42.3",
-    "@types/node": "22.10.3",
-    "@vitest/coverage-v8": "2.1.8",
+    "@types/node": "22.14.0",
+    "@vitest/coverage-v8": "3.1.1",
     "del-cli": "6.0.0",
-    "eslint": "9.17.0",
-    "globals": "15.14.0",
+    "eslint": "9.24.0",
+    "globals": "16.0.0",
     "husky": "9.1.7",
-    "lint-staged": "15.3.0",
-    "prettier": "3.4.2",
-    "tsx": "4.19.2",
-    "typescript": "5.7.2",
-    "typescript-eslint": "8.19.0",
-    "vitest": "2.1.8"
+    "lint-staged": "15.5.0",
+    "prettier": "3.5.3",
+    "tsx": "4.19.3",
+    "typescript": "5.8.3",
+    "typescript-eslint": "8.29.0",
+    "vitest": "3.1.1"
   },
   "dependencies": {
-    "fastify": "5.2.0"
+    "fastify": "5.2.2"
   }
 }
